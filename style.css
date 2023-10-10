@@ -1,0 +1,166 @@
+@media (min-width:501px) {
+body {
+    background-image: url(NL-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.png);
+    margin: 0 auto;
+}
+.container {
+    margin: 30px auto;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 4rem;
+    margin-bottom: -10px;
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 1.7rem;
+}
+.red {
+    color: red;
+}
+.form {
+    width: 27rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 40px;
+}
+label
+{
+    margin-top: 10px;
+    display: block;
+}
+.text input {
+    margin-top: 10px;
+    width: 25rem;
+    height: 2rem;
+}
+select {
+    margin-top: 10px;
+    width: 27rem;
+    height: 3rem;
+    margin-bottom: 10px;
+}
+input {
+    margin-top: 10px;
+}
+label span
+{
+    display:block;
+    text-align: left;
+}
+.block {
+    margin-top: -10px;
+    margin-left: -4px;
+}
+::placeholder {
+    text-align: left;
+}
+.button {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+button {
+    color: white;
+    background-color: red;
+    width:8rem ;
+    height: 3rem;
+    border-radius: 25px;
+    border: none;
+}
+}
+@media (max-width:500px) {
+    body {
+        background-image: url(NL-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.png);
+        margin: 0 auto;
+    }
+    .container {
+        margin: 30px auto;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Tilt Neon', sans-serif;
+        font-size: 4rem;
+        margin-bottom: -10px;
+    }
+    h3 {
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Tilt Neon', sans-serif;
+        font-size: 1.7rem;
+    }
+    .red {
+        color: red;
+    }
+    .form {
+        width: 27rem;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 20px 40px;
+    }
+    label
+    {
+        margin-top: 10px;
+        display: block;
+    }
+    .text input {
+        margin-top: 10px;
+        width: 25rem;
+        height: 2rem;
+    }
+    select {
+        margin-top: 10px;
+        width: 27rem;
+        height: 3rem;
+        margin-bottom: 10px;
+    }
+    input {
+        margin-top: 10px;
+    }
+    label span
+    {
+        display:block;
+        text-align: left;
+    }
+    .block {
+        margin-top: -10px;
+        margin-left: -4px;
+    }
+    ::placeholder {
+        text-align: left;
+    }
+    .button {
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    button {
+        color: white;
+        background-color: red;
+        width:8rem ;
+        height: 3rem;
+        border-radius: 25px;
+        border: none;
+    }
+    }
