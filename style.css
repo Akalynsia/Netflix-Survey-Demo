@@ -68,6 +68,10 @@ label span
 ::placeholder {
     text-align: left;
 }
+.feedback input {
+    width: 27.5rem; 
+    padding-bottom: 6rem;
+}
 .button {
     margin-left: 150px;
     margin-top: 20px;
